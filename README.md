@@ -77,8 +77,7 @@ I will like to learn more on positioning in CSS.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
+- LinkedIn - [Leshi Demilade](https://www.linkedin.com/in/leshi-demilade-74429223a/)
+- Frontend Mentor - [@demi05](https://www.frontendmentor.io/profile/demi05)
+- Twitter - [@toniiaa___](https://twitter.com/toniiaa___?s=09)
 
