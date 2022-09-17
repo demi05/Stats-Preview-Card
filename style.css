@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+main {
+  display: flex;
+  margin: 5em auto;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 70%;
+  /* min-height: 100vh; */
+  max-width: 70%;
+}
+.container {
+  background-color: hsl(244, 38%, 16%);
+  max-width: 900px;
+  border-top-left-radius: 0.75em;
+  border-bottom-left-radius: 0.75em;
+}
+.container-class{
+  display: flex;
+  margin: 0 auto;
+}
+.text-child {
+  width: 50%;
+  padding: 3em;
+}
+.text-class {
+  width: 100%;
+}
+h1,
+h3,
+.attribution {
+  color: hsl(0, 0%, 100%);
+}
+.p-text {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.p-stats {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.p-text,
+.p-stats {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+h1 {
+  padding-bottom: 1.5em;
+  line-height: 31px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.p-text {
+  line-height: 30px;
+  padding-bottom: 4em;
+}
+.stats-class {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  line-height: 25px;
+  width: 100%;
+}
+/* .flex-child{
+  border: 1px solid seagreen;
+} */
+.image {
+  border: none;
+  border-top-right-radius: 0.75em;
+  border-bottom-right-radius: 0.75em;
+  object-fit: cover;
+  height: 100%;
+  width: 200%;
+  max-width: 200%;
+}
+.image-class {
+  position: relative;
+  width: 50%;
+  max-width: 50%;
+  height: 100%;
+}
+.overlay {
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: hsla(277, 91%, 40%, 0.5);
+  border-top-right-radius: 0.75em;
+  border-bottom-right-radius: 0.75em;
+}
+
+.attribution {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 3em;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 800px) {
+  main {
+    width: 90%;
+  }
+  .container {
+     margin: 5em auto;
+    border-bottom-left-radius: 0.75em;
+    border-bottom-right-radius: 0.75em;
+    height: fit-content;
+    max-width: 400px;
+  }
+  .container-class{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .text-child {
+    order: 2;
+    width: 120%;
+    padding: 2em;
+    padding-right: 6em;
+    text-align: center;
+    /*margin: 0 auto;*/
+  }
+  .image-class {
+    order: 1;
+    width: 50%;
+    max-width: 50%;
+    height: 100%;
+  }
+  .image {
+    object-fit: cover;
+    width: 200%;
+    max-width: 200%;
+    height: 100%;
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .overlay {
+    width: 200%;
+    height: 100%;
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .stats-class {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-child {
+    margin-top: 1.5em;
+  }
+  h1 {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+  }
+  .p-text {
+    padding-bottom: 1.5em;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1150px) {
+  main {
+    width: 90%;
+    max-width: 900px;
+  }
+  .container {
+    background-color: hsl(244, 38%, 16%);
+  }
+  .container-class{
+    display: flex;
+    margin: 0 auto
+  }
+  .text-child {
+    display: flex;
+    width: 50%;
+   max-width: 50%;
+    padding: 3em;
+    align-self: flex-start;
+    /* border: 2px solid greenyellow; */
+  }
+  .stats-class{
+    /* justify-content: space-between; */
+    line-height: 25px;
+    align-items: flex-start;
+    width: 60%;
+    /* border: 2px solid red; */
+  }
+  .flex-child{
+    /* border: 2px solid rosybrown; */
+    width: 40%;
+    margin-right: 2em;
+  }
+  .image {
+    /* object-fit: cover; */
+    height: 100%;
+    width: 200%;
+    max-width: 200%;
+  }
+  .image-class {
+    position: relative;
+    width: 50%;
+    max-width: 50%;
+    height: 100%;
+  }
+  .overlay {
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}
